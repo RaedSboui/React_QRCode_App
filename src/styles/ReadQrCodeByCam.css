@@ -1,0 +1,40 @@
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .result {
+    width: 60vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  p {
+    transform: translateX(25%);
+  }
+  
+  .cam,
+  .text {
+    width: 400px;
+    height: 400px;
+  }
+  
+  @media (min-width: 600px) and (max-width: 700px) {
+    .cam,
+    .text {
+      width: 65vw;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .cam,
+    .text {
+      width: 70vw;
+    }
+  }
+  
